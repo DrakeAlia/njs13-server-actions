@@ -9,6 +9,9 @@ export default function Home() {
       <div>
         <Link href="/formPostWithStatus">Form Post With Status</Link>
       </div>
+      <div>
+        <Link href="/formPostWithTransition">Form Post With Transition</Link>
+      </div>
     </main>
   );
 }
