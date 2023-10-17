@@ -3,7 +3,12 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="p-5">
-      <Link href="/formPost">Simple Form Post</Link>
+      <div>
+        <Link href="/formPost">Simple Form Post</Link>
+      </div>
+      <div>
+        <Link href="/formPostWithStatus">Form Post With Status</Link>
+      </div>
     </main>
   );
 }

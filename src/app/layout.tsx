@@ -17,6 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      {/* <noscript className='text-white'>Javascript is Disabled</noscript> */}
     </html>
   )
 }
