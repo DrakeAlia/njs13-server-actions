@@ -18,7 +18,9 @@ export default function PokemonSearch() {
       .slice(0, 50);
   }
 
-  return <main className="p-5">
-    <PokemonList search={search} />
-  </main>;
+  return (
+    <main className="p-5">
+      <PokemonList search={search} />
+    </main>
+  );
 }

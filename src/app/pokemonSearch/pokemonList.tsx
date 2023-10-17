@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 
 export default function PokemonList({
@@ -15,8 +14,7 @@ export default function PokemonList({
   }, [search]);
 
   const onClick = async () => {
-    const names = await search(searchString);
-    setPokemonNames(names);
+    setPokemonNames(await search(searchString));
   };
 
   return (
