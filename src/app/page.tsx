@@ -12,6 +12,9 @@ export default function Home() {
       <div>
         <Link href="/formPostWithTransition">Form Post With Transition</Link>
       </div>
+      <div>
+        <Link href="/pokemonSearch">Pokemon Search</Link>
+      </div>
     </main>
   );
 }
