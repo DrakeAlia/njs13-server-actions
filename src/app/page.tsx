@@ -1,14 +1,9 @@
-const todos: string[] = ["Learn React"];
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="p-24">
-      <h1 className="text-4xl font-bold">Todos</h1>
-      <ul>
-        {todos.map((todo, index) => (
-          <li key={index}>{todo}</li>
-        ))}
-      </ul>
+    <main className="p-5">
+      <Link href="/formPost">Simple Form Post</Link>
     </main>
   );
 }
